@@ -1,0 +1,130 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana;
+  }
+  
+  body {
+    overflow: scroll;
+  }
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
+.BMI-title {
+    display: inline-block;
+    text-align: center;
+    font-size: 48px;
+    
+}
+
+h1 {
+    text-shadow:  #7d97f4 2px 2px 20px;
+}
+.container-content img {
+    width: 640px;
+}
+
+.container-content p {
+    font-size: 24px;
+}
+.container-content span {
+    color: #7d97f4;
+    font-weight: bolder;
+}
+
+.bmi-calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-calculator {
+    background-color: aliceblue;
+    margin-top: 100px;
+    width: 480px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.detail-calculator {
+    margin: 20px;
+}
+.container-calculator p {
+    font-size: 24px;
+    
+}
+
+.input-height, .input-weight {
+    width: 80%;
+    height: 32px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.calculate {
+    background-color: #008000;
+    height: 40px;
+    width: 25%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+
+}
+.reset {
+    background-color: #e98a0e;
+    height: 40px;
+    width: 25%;
+    border-radius: 4px;
+    border: none;
+    color: white;
+
+}
+
+a:hover {
+    background-color: black;
+}
+
+.calculate:hover {
+    background-color: #7d97f4;
+}
+.reset:hover {
+    background-color: #7d97f4;
+}
+
+.result {
+    margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .container-title h1 {
+        font-size: 36px;
+    }
+    .container-content img {
+        width: 540px;
+    }
+    
+}
+@media only screen and (max-width: 540px) {
+
+
+    .container-title h1 {
+        font-size: 32px;
+    }
+    .container-content img {
+        width: 480px;
+    }
+    
+}
